@@ -7,6 +7,7 @@ const Header = () => {
     minHeight: "80vh",
     display: "flex",
     justifyContent: "center",
+
     gap: theme.spacing(2),
     paddingTop: theme.spacing(10),
     backgroundColor: "lightblue",
@@ -33,7 +34,7 @@ const Header = () => {
       {/*  Box text  */}
       <BoxText component="section">
         <Typography
-          variant="h1"
+          variant="h2"
           component="h1"
           sx={{
             fontWeight: 700,
